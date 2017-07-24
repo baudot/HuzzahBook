@@ -8,7 +8,7 @@
 #define IO_KEY "Your Adafruit IO Key, Found in io.adafruit settings, goes here."
 
 ESP8266WebServer server(80);
-AdafruitIO_WiFi io(IO_USERNAME, IO_KEY, "WiFi Network Name Here", "WiFi Password here.");
+AdafruitIO_WiFi io(IO_USERNAME, IO_KEY, "YOUR NETWORK NAME", "YOUR WIFI PASSWORD");
 AdafruitIO_Feed *chair_occupied = io.feed("ChairOccupied");
 AdafruitIO_Feed *trigger_trap = io.feed("TriggerTrap");
 
