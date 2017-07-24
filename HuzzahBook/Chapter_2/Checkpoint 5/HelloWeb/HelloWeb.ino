@@ -10,7 +10,7 @@ void mainPage() {
 
 void connectWifi() {
   Serial.print("Attempting to connect to wifi...");
-  WiFi.begin("Your Network Name", "Your Wifi Password");
+  WiFi.begin("YOUR NETWORK NAME", "YOUR WIFI PASSWORD");
   while (WiFi.status() != WL_CONNECTED) {
     delay(500);
     Serial.print(".");

@@ -19,7 +19,7 @@ void mainPage() {
 void connectWifi() {
   Serial.print("Attempting to connect to wifi...");
   WiFi.config(IPAddress(192, 168, 0, 240), IPAddress(192, 168, 0, 1), IPAddress(192, 168, 0, 1));
-  WiFi.begin("ARRIS-30D2", "40440399204048590900");
+  WiFi.begin("YOUR NETWORK NAME", "YOUR WIFI PASSWORD");
   while (WiFi.status() != WL_CONNECTED) {
     delay(500);
     Serial.print(".");

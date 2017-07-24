@@ -11,7 +11,7 @@ void mainPage() {
 void connectWifi() {
   Serial.print("Attempting to connect to wifi...");
   WiFi.config(IPAddress(192, 168, 42, 80), IPAddress(192, 168, 42, 1), IPAddress(192, 168, 42, 1));
-  WiFi.begin("Your Network Name", "Your Wifi Password");
+  WiFi.begin("YOUR NETWORK NAME", "YOUR WIFI PASSWORD");
   while (WiFi.status() != WL_CONNECTED) {
     delay(500);
     Serial.print(".");

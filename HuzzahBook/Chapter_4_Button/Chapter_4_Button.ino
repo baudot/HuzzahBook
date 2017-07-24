@@ -5,7 +5,7 @@
 #define IO_USERNAME "Your Adafruit IO account name goes here."
 #define IO_KEY "Your Adafruit IO account key goes here. Look for it on the settings page of io.adafruit."
 
-AdafruitIO_WiFi io(IO_USERNAME, IO_KEY, "Your WiFi Network Name", "Your WiFi Password");
+AdafruitIO_WiFi io(IO_USERNAME, IO_KEY, "YOUR NETWORK NAME", "YOUR WIFI PASSWORD");
 AdafruitIO_Feed *chair_occupied = io.feed("ChairOccupied");
 AdafruitIO_Feed *trigger_trap = io.feed("TriggerTrap");
 
